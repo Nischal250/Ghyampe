@@ -1,0 +1,166 @@
+
+h5{
+  display: inline;
+}
+
+.logo{
+  background-color: white;
+}
+.navi{
+font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  margin-top: 0;
+  background-color: white;
+  padding-top: 1.5em;
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+.cart {
+  margin: 0 10px;
+
+padding-left:1rem;
+}
+.g-padd{
+position: relative;
+left: 50%;
+  padding-right: 2rem;
+}
+
+.cart:hover{
+  color: #848ccf;
+}
+
+input.form-control{
+  width: 300px;
+}
+.g-carousel{
+  padding-top: 0rem;
+}
+
+/* media queary */
+@media(max-width: 1000px) {
+  input.form-control{
+    width: 100px;
+  }
+  .g-textButton{
+    display: none;
+  }
+  .icon{
+    size: 40px;
+    width:70px;
+    height:40px;
+  }
+
+}
+.g-mainImage{
+  padding: 1rem 0 0 0 ;
+
+  width: 100%;
+  height: 50%;
+
+}
+.carousel-item {
+  padding: 2% 4%;
+}
+
+
+/* celebration */
+
+#celebration{
+  background-color: white;
+  color: black;
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+
+
+
+}
+
+
+
+
+.g-celeb{
+height: 12rem;
+width: 8rem;
+margin: 3rem;
+position: relative;
+left: -300px;}
+.alcohol{
+  transition: 2s;
+animation-name: alcoholsImage;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+position: relative;
+height: 13rem;
+width: 8rem;
+margin: 2rem 0;
+/* left: 17rem; */
+}
+@keyframes alcoholsImage {
+  0%{left: -300px;}
+
+ 100%{left: -125px;}
+}
+
+
+/* best sellers */
+
+.logos{
+  z-index: 5;
+
+  position: relative;
+left: 10rem;
+
+opacity: 0.5;
+
+
+  animation-name: moveLogo;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  /* animation-direction: alternate; */
+  transition: 2s;
+}
+  @keyframes moveLogo {
+  0%{width: 18rem; right: 28rem;}
+
+
+  100%{width: 13rem;opacity: 0.3;right: 25rem;}
+
+
+   }
+
+#bestSeller{
+
+  font-family: 'Playfair Display', serif;
+
+font-weight: bold;
+text-align: center;
+padding-top: 10rem;
+padding-bottom: 3rem;
+}
+.Best-sell{
+  margin-top: 5rem;
+}
+
+#features{
+  font-family: "Montserrat";
+  text-align: center;
+
+  position: relative;
+
+
+}
+.feature{
+  padding: 3rem 3rem;
+}
+.redd{
+  color: #66bfbf;
+}
+
+
+
+#testimonials{
+
+}
